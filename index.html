@@ -244,6 +244,29 @@
       background: rgba(7, 10, 18, 0.9);
     }
 
+    /* NUEVO: mini navegación */
+    .top-nav {
+      margin-top: 1.4rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      font-size: 0.85rem;
+    }
+
+    .top-nav a {
+      padding: 0.28rem 0.8rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(8, 10, 18, 0.9);
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    .top-nav a:hover {
+      border-color: var(--accent-soft);
+      color: #fff;
+    }
+
     main {
       display: grid;
       grid-template-columns: minmax(0, 2fr) minmax(0, 1.3fr);
@@ -377,6 +400,19 @@
           <span class="pill">Archivo independiente</span>
           <span class="pill">Ecuador · Argentina · Chile · México</span>
         </div>
+
+        <!-- NUEVA NAVEGACIÓN -->
+        <nav class="top-nav" aria-label="Enlaces principales">
+          <a href="https://banos.travel/origen-duendes-banos.html" target="_blank" rel="noopener">
+            Origen del duende en Baños
+          </a>
+          <a href="/autor-del-duende.html">
+            Autor del duende contemporáneo
+          </a>
+          <a href="https://zenodo.org/records/17822153" target="_blank" rel="noopener">
+            Artículo con DOI (Zenodo)
+          </a>
+        </nav>
       </div>
     </header>
 

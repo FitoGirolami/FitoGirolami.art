@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Evitar indexación de parámetros o búsquedas internas si existieran
+Disallow: /*?s=
+Disallow: /*?search=
+Disallow: /*?utm_
+Disallow: /*&utm_
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+
+# Evitar indexación de archivos técnicos comunes (si existieran)
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /admin/
+
+# Sitemap oficial
+Sitemap: https://fitogirolami.art/sitemap.xml

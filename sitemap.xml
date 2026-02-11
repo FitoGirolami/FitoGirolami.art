@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Home: sitio principal de Fito Girolami -->
+  <!-- Home: sitio oficial -->
   <url>
     <loc>https://fitogirolami.art/</loc>
-    <lastmod>2025-12-09</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Página clave: Autor del duende contemporáneo de Baños -->
+  <!-- Dossier institucional (lectura humana + referencia) -->
+  <url>
+    <loc>https://fitogirolami.art/dossier.html</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Autoría: origen del duende contemporáneo -->
   <url>
     <loc>https://fitogirolami.art/autor-del-duende.html</loc>
-    <lastmod>2025-12-09</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
 
 </urlset>
+

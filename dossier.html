@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Fito Girolami — Dossier institucional · Arte, archivo e investigación</title>
+  <link rel="canonical" href="https://fitogirolami.art/dossier.html" />
+
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
+  <meta name="author" content="Fito Girolami" />
+
+  <meta name="description" content="Dossier institucional de Fito Girolami: trayectoria, obra, espacios culturales, investigación y archivo sobre el imaginario contemporáneo del duende en Baños de Agua Santa (Ecuador) y Latinoamérica." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_EC" />
+  <meta property="og:site_name" content="Fito Girolami — Sitio oficial" />
+  <meta property="og:title" content="Fito Girolami — Dossier institucional" />
+  <meta property="og:description" content="Trayectoria, obra, investigación y archivo cultural. Documento de referencia para instituciones, curadurías y convocatorias." />
+  <meta property="og:url" content="https://fitogirolami.art/dossier.html" />
+  <meta property="og:image" content="https://fitogirolami.art/imagenes/fito-girolami.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Fito Girolami — Dossier institucional" />
+  <meta name="twitter:description" content="Trayectoria, obra, investigación y archivo cultural sobre duendes en Ecuador y Latinoamérica." />
+  <meta name="twitter:image" content="https://fitogirolami.art/imagenes/fito-girolami.jpg" />
+
+  <!-- JSON-LD WebPage -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebPage",
+    "@id":"https://fitogirolami.art/dossier.html#webpage",
+    "url":"https://fitogirolami.art/dossier.html",
+    "name":"Fito Girolami — Dossier institucional",
+    "inLanguage":"es",
+    "about":{"@id":"https://fitogirolami.art/#fito"},
+    "description":"Dossier institucional de Fito Girolami: trayectoria, obra, investigación y archivo cultural del imaginario contemporáneo del duende en Baños de Agua Santa (Ecuador) y Latinoamérica."
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #05070a;
+      --bg-alt: #10141b;
+      --fg: #f4f4f4;
+      --accent: #ff3366;
+      --accent-soft: #ff7a9a;
+      --muted: #9da3b3;
+      --border: #1f2532;
+      --font-main: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --font-mono: "JetBrains Mono", "Fira Code", monospace;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: var(--font-main);
+      background: radial-gradient(circle at top, #141b2c 0, #05070a 55%, #000 100%);
+      color: var(--fg);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a { color: var(--accent-soft); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .wrapper {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 3rem;
+      width: 100%;
+    }
+
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 2rem;
+    }
+
+    .portrait {
+      flex: 0 0 220px;
+      max-width: 260px;
+      border-radius: 999px;
+      overflow: hidden;
+      border: 2px solid var(--accent);
+      box-shadow: 0 0 25px rgba(255, 51, 102, 0.4);
+      background: #000;
+    }
+
+    .portrait img { display: block; width: 100%; height: auto; }
+
+    .header-text { flex: 1 1 260px; min-width: 0; }
+
+    h1 {
+      font-size: clamp(2.2rem, 4vw, 3rem);
+      margin: 0 0 0.35rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .tagline {
+      font-family: var(--font-mono);
+      font-size: 0.92rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--accent-soft);
+      margin-bottom: 0.4rem;
+    }
+
+    .subtag {
+      font-size: 1.02rem;
+      color: var(--muted);
+      max-width: 44rem;
+      margin: 0.25rem 0 0.9rem;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .pill {
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      padding: 0.25rem 0.8rem;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      background: rgba(7, 10, 18, 0.9);
+    }
+
+    .top-nav {
+      margin-top: 1.1rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      font-size: 0.85rem;
+    }
+
+    .top-nav a {
+      padding: 0.28rem 0.8rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(8, 10, 18, 0.9);
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    .top-nav a:hover { border-color: var(--accent-soft); color: #fff; }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      border-radius: 999px;
+      padding: 0.55rem 1.3rem;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      border: 1px solid var(--accent);
+      background: radial-gradient(circle at top left, rgba(255, 51, 102, 0.2), transparent 56%);
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .btn.secondary {
+      border-color: var(--border);
+      color: var(--muted);
+      background: transparent;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1.3fr);
+      gap: 2rem;
+    }
+
+    @media (max-width: 860px) {
+      main { grid-template-columns: minmax(0, 1fr); }
+    }
+
+    section {
+      margin-bottom: 2rem;
+      background: linear-gradient(135deg, rgba(13, 17, 27, 0.96), rgba(5, 7, 12, 0.98));
+      border-radius: 1.2rem;
+      border: 1px solid var(--border);
+      padding: 1.3rem 1.4rem 1.5rem;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.6);
+    }
+
+    section h2 {
+      margin-top: 0;
+      margin-bottom: 0.6rem;
+      font-size: 1.15rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent-soft);
+    }
+
+    section p {
+      margin: 0.35rem 0;
+      line-height: 1.55;
+      font-size: 0.98rem;
+      color: #dde1ee;
+    }
+
+    .muted { color: var(--muted); font-size: 0.88rem; }
+
+    .list { padding-left: 1.1rem; margin: 0.3rem 0 0.6rem; }
+    .list li { margin-bottom: 0.2rem; font-size: 0.96rem; }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.4rem;
+    }
+
+    .badge {
+      font-size: 0.78rem;
+      border-radius: 999px;
+      padding: 0.18rem 0.7rem;
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      margin-top: 2.5rem;
+      padding-top: 1.3rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--accent-soft); }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <figure class="portrait">
+        <img src="imagenes/fito-girolami.jpg" alt="Retrato de Fito Girolami, artista e investigador de duendes en Latinoamérica">
+      </figure>
+
+      <div class="header-text">
+        <div class="tagline">Dossier · Trayectoria · Obra · Archivo</div>
+        <h1>Fito Girolami</h1>
+        <p class="subtag">
+          Documento de referencia para lectura institucional: trayectoria artística, obra territorial,
+          archivo cultural e investigación sobre el imaginario contemporáneo del duende en Baños de Agua Santa (Ecuador) y Latinoamérica.
+        </p>
+
+        <div class="pill-row">
+          <span class="pill">Arte feérico</span>
+          <span class="pill">Archivo cultural</span>
+          <span class="pill">Investigación aplicada</span>
+          <span class="pill">Baños · Ecuador</span>
+          <span class="pill">Latinoamérica</span>
+        </div>
+
+        <nav class="top-nav" aria-label="Secciones del dossier">
+          <a href="#ficha">Ficha</a>
+          <a href="#trayectoria">Trayectoria</a>
+          <a href="#obra">Obra</a>
+          <a href="#territorio">Territorio</a>
+          <a href="#archivo">Archivo</a>
+          <a href="#enlaces">Referencias</a>
+          <a href="#contacto">Contacto</a>
+          <a class="btn secondary" href="/" title="Volver al sitio principal">Volver al sitio</a>
+        </nav>
+
+        <div class="cta-row">
+          <a class="btn" href="https://lacasadelduende.art/" target="_blank" rel="noopener noreferrer">La Casa del Duende</a>
+          <a class="btn secondary" href="https://aldeamagica.art/" target="_blank" rel="noopener noreferrer">La Aldea Mágica</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Columna izquierda -->
+      <div>
+        <section id="ficha">
+          <h2>Ficha de identificación</h2>
+          <ul class="list">
+            <li><strong>Nombre:</strong> Fito Girolami</li>
+            <li><strong>Nacionalidad:</strong> Argentina</li>
+            <li><strong>Base:</strong> Baños de Agua Santa, Tungurahua, Ecuador</li>
+            <li><strong>Rol:</strong> Artista e investigador cultural</li>
+            <li><strong>Coautoría y cofundación:</strong> junto a Catalina Lucz-Ligeti</li>
+            <li><strong>Proyectos:</strong> La Casa del Duende (2013) · La Aldea Mágica (2018)</li>
+          </ul>
+          <p class="muted">
+            Este dossier reúne trayectoria, obra y documentación pública disponible en el sitio oficial y repositorios asociados.
+          </p>
+        </section>
+
+        <section id="trayectoria">
+          <h2>Trayectoria</h2>
+          <p>
+            Desde 2013, el trabajo de Fito Girolami junto a Catalina Lucz-Ligeti impulsa una práctica que integra creación artística,
+            investigación cultural y archivo. En Baños de Agua Santa, este proceso activa una lectura contemporánea del duende como
+            símbolo en circulación, articulado con memoria territorial, turismo e imaginario local.
+          </p>
+          <p>
+            La trayectoria se expresa en espacios permanentes, publicaciones y documentación de acceso abierto que registran la evolución
+            del fenómeno y sus formas de lectura en Ecuador y Latinoamérica.
+          </p>
+        </section>
+
+        <section id="obra">
+          <h2>Obra</h2>
+          <p>
+            La obra se despliega en distintos formatos: creación de figuras, instalación y ambientación feérica, recorridos,
+            guías narrativas, publicaciones y recursos audiovisuales. El conjunto propone experiencias donde la imaginación,
+            el territorio y el archivo dialogan como una misma práctica.
+          </p>
+          <div class="badge-row">
+            <span class="badge">figuras</span>
+            <span class="badge">instalación</span>
+            <span class="badge">espacios permanentes</span>
+            <span class="badge">publicaciones</span>
+            <span class="badge">audiovisual</span>
+          </div>
+        </section>
+
+        <section id="territorio">
+          <h2>Territorio y lectura cultural</h2>
+          <p>
+            Baños de Agua Santa aparece como territorio de observación y creación: un entorno donde se documenta la circulación
+            de relatos, objetos y prácticas asociadas al duende, y donde la obra se construye como experiencia cultural situada.
+          </p>
+          <p class="muted">
+            La lectura se orienta a comprender símbolos vivos: usos, relatos, circulación y sentido cultural en contexto.
+          </p>
+        </section>
+      </div>
+
+      <!-- Columna derecha -->
+      <div>
+        <section id="archivo">
+          <h2>Archivo, publicaciones y repositorios</h2>
+          <p>
+            Una parte central del trabajo se cristaliza en un archivo cultural de acceso abierto, con registros, ensayos,
+            informes y materiales audiovisuales disponibles en plataformas académicas y repositorios.
+          </p>
+          <ul class="list">
+            <li><a href="https://zenodo.org/records/17822153" target="_blank" rel="noopener noreferrer">Zenodo — registro con DOI</a></li>
+            <li><a href="https://osf.io" target="_blank" rel="noopener noreferrer">OSF — proyectos</a></li>
+            <li><a href="https://www.academia.edu" target="_blank" rel="noopener noreferrer">Academia.edu — textos</a></li>
+            <li><a href="https://open.spotify.com/show/7dq6riA0XTvW2Xe40JbnTl" target="_blank" rel="noopener noreferrer">Spotify — audio</a></li>
+            <li><a href="https://www.youtube.com/@CasaDelDuende" target="_blank" rel="noopener noreferrer">YouTube — archivo audiovisual</a></li>
+          </ul>
+        </section>
+
+        <section id="enlaces">
+          <h2>Referencias principales</h2>
+          <ul class="list">
+            <li><a href="https://banos.travel/origen-duendes-banos.html" target="_blank" rel="noopener">Origen del duende contemporáneo en Baños</a></li>
+            <li><a href="/autor-del-duende.html">Autor del duende contemporáneo</a></li>
+            <li><a href="https://www.wikidata.org/wiki/Q134989795" target="_blank" rel="noopener">Wikidata</a></li>
+          </ul>
+          <p class="muted">
+            Este bloque funciona como mapa de verificación: referencias públicas y trazables asociadas a la identidad y producción.
+          </p>
+        </section>
+
+        <section id="contacto">
+          <h2>Contacto</h2>
+          <p>
+            Para entrevistas, proyectos curatoriales, colaboraciones académicas o investigaciones vinculadas a archivo cultural e imaginarios:
+          </p>
+          <p><strong>Email:</strong> <a href="mailto:contacto@fitogirolami.art">contacto@fitogirolami.art</a></p>
+
+          <!-- Opcional: CV PDF (si lo subís) -->
+          <!--
+          <div class="cta-row">
+            <a class="btn" href="imagenes/FitoGirolami-CV.pdf" target="_blank" rel="noopener">Descargar CV (PDF)</a>
+          </div>
+          -->
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div>© <span id="year"></span> Fito Girolami · Baños de Agua Santa, Ecuador.</div>
+      <div>Documento de referencia: obra, archivo e investigación cultural en torno al imaginario contemporáneo del duende.</div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
